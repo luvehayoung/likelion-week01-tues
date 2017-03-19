@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>This is my first blog</title>
+	<link rel="stylesheet" href="style.css"> <!--외부 css파일 가져오기-->
+
+</head>
+<body>
+
+<header>
+	
+	<div class="header-top">
+		<div class="logo">
+			<img src="logo-black.png" alt="logo likelion" width="120">  <!--img에 alt 스크린리더기 -->
+		</div>
+		<div class="contact">
+			<p class="phone">010-52xx-68xx</p>
+			<p class="email">lxxxxxxxxxg@naver.com</p>
+		</div>
+	</div>
+	<div class="header-bot">
+		<h1>Hack Your Life</h1>
+		<h2>LikeLion The Fifth</br> at university of Seoul</h2>
+	</div>
+	
+</header>
+
+<!-- header>(div.header-top>(div.logo>img)+(div.contact>p.phone+p.email))+(div.header-bot>h1+h2) -->
+
+
+<nav>
+	<p>MENU</p>
+	<ul>
+		<li><a href="#about-me">about me</a></li>
+		<li><a href="#about-blog">bout blog</a></li>
+		<li><a href="#html-css">html&amp;css</a></li>
+		<li><a href="#javascript">javascript</a></li>
+		<li><a href="#ruby-on-rails">ruby&amp;ruby on rails</a></li>
+	</ul>
+</nav>
+
+<!-- nav>p+ul>(li>a)*5 -->
+
+<section>
+	<article id="about-me" class="arti">
+		<!--알아서 채워보세여-->
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur nam culpa vero illo quasi voluptatem sint eligendi, iusto cumque blanditiis repudiandae, perspiciatis nemo explicabo, quia ratione dolorum fugiat ipsum molestias amet quod distinctio modi? Repudiandae esse minima modi delectus ipsam vitae? Cum facere deserunt ducimus nisi ad tempore deleniti dolorem, odio corrupti reprehenderit optio quos porro placeat inventore officia nulla asperiores rem recusandae fugiat ipsum possimus laudantium sint! Assumenda officia autem, blanditiis reprehenderit ex nesciunt laudantium asperiores inventore, ipsa esse omnis illo ea beatae laboriosam iste odio natus quasi obcaecati sequi necessitatibus ab totam nam. Deserunt enim maiores, consequuntur porro.
+	</article>
+	<article id="about-blog" class="arti">
+		<!--여기도 셀프-->
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, temporibus error architecto illo, quis impedit eius tenetur. Mollitia, consequuntur quasi nesciunt, quis, quos quidem explicabo saepe expedita voluptatem vel quia provident eius culpa accusamus! Quidem earum optio exercitationem. Cumque esse blanditiis iste delectus neque vel tempore libero, id, officiis necessitatibus consequuntur est inventore quod? Autem hic amet similique minima ut, vel laboriosam ratione voluptatibus earum, architecto voluptatem, pariatur, enim cupiditate quod? Nam animi id voluptatum. Velit repellendus natus corrupti veniam rerum facere accusantium molestiae perspiciatis commodi, aspernatur asperiores id, nisi consequatur ad deserunt ex odio harum inventore dolore unde. Deleniti, sint architecto! Accusantium pariatur sunt laborum ipsum vel voluptatem nihil, nobis illum non dicta. Fuga, quam. Neque dolor voluptate quos.
+	</article>
+	<article id="html-css" class="arti">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos natus, vero expedita corporis ut esse molestias quaerat provident earum odio. Porro voluptate illum nostrum, a qui non, asperiores est beatae libero quis nam quas deleniti omnis in veniam error, architecto quam facere. Facilis quaerat, minima tempora, quam accusantium perferendis facere ipsa exercitationem voluptatibus! Repellendus suscipit modi omnis saepe quos ut sint nostrum necessitatibus, nesciunt assumenda reprehenderit quibusdam tempore pariatur harum est, magni officiis voluptas, veritatis maiores, dolorum accusantium quaerat a!
+	</article>
+	<article id="javascript" class="arti">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos natus, vero expedita corporis ut esse molestias quaerat provident earum odio. Porro voluptate illum nostrum, a qui non, asperiores est beatae libero quis nam quas deleniti omnis in veniam error, architecto quam facere. Facilis quaerat, minima tempora, quam accusantium perferendis facere ipsa exercitationem voluptatibus! Repellendus suscipit modi omnis saepe quos ut sint nostrum necessitatibus, nesciunt assumenda reprehenderit quibusdam tempore pariatur harum est, magni officiis voluptas, veritatis maiores, dolorum accusantium quaerat a!
+	</article>
+	<article id="ruby-on-rails" class="arti">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos natus, vero expedita corporis ut esse molestias quaerat provident earum odio. Porro voluptate illum nostrum, a qui non, asperiores est beatae libero quis nam quas deleniti omnis in veniam error, architecto quam facere. Facilis quaerat, minima tempora, quam accusantium perferendis facere ipsa exercitationem voluptatibus! Repellendus suscipit modi omnis saepe quos ut sint nostrum necessitatibus, nesciunt assumenda reprehenderit quibusdam tempore pariatur harum est, magni officiis voluptas, veritatis maiores, dolorum accusantium quaerat a!
+	</article>
+</section>
+
+<!-- section>artice.arti*5 -->
+
+<footer>
+	<div class="footer-top">
+		MAKE SOMETHING TOGETHER
+	</div>
+	<div class="footer-bot">
+		<p class="contact-me">Contact me anytime if you want to</p>
+		<div class="bot-wrap">
+			<p class="bot">&copy;LIKELION at UOS</p>
+			<p class="bot">페이스북같은 것을 걸어볼까</p>
+		</div>
+	</div>
+</footer>
+
+<!-- footer>div.footer-top+(div.footer-bot>p.contact-me+(div.bot-wrap>p.bot*2)) -->
+</body>
+</html>
