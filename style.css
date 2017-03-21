@@ -36,6 +36,9 @@ header,section,footer{
 
 /*header의 레이아웃 잡기*/
 /*flex를 이용하여 header-top잡기*/
+header{
+	
+}
 header .header-top{
 	display:flex;
 	justify-content:space-between;
@@ -57,6 +60,7 @@ header .header-top p{
 /*position absolute를 이용하여 header-bot잡기*/
 /*position: static, absolute, relative, fixed;*/
 header .header-bot{
+	background-color:white;
 	position:relative;
 	height:350px;
 }
