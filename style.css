@@ -22,9 +22,9 @@ body{
 	flex-direction:column;
 	align-items:center;
 }
-header,nav,section,footer{
+header,section,footer{
 	/*넓이는 임의로 정하면 됨*/
-	width:1050px;
+	width:960px;
 }
 @media (max-width: 1050px) {
   body{
